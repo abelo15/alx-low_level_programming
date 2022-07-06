@@ -7,18 +7,15 @@
  * Return: 1 or 0 in otherwise.
  */
 
-int _isalpha(int c)
+int _isalpha(void)
 {
-	char lower, upper;
-	int isletter = 0;
+	char a;
+	int x = 0;
 
-	for (lower = 'a'; lower <= 'z'; lower++)
+	for (a = 'A'; a <= 'z'; a++)
 	{
-		for (upper = 'A'; upper <= 'Z'; upper++)
-		{
-			if (c == lower || c == upper)
-				isletter = 1;
-		}
+		if (a == 'C' || a == 'c')
+			x = 1;
 	}
-	return (isletter);
+	return (x);
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int print_sign(int n) 
+ * int print_sign - check main
  * @n: An input number
  * Description: Tohis function prints the sign of the number
  * Return: 1 if number is positive, o if number is 0, or
@@ -10,22 +10,22 @@
 
 int print_sign(int n)
 {
-	int value;
+	int x;
 
 	if (n > 0)
 	{
-		value = 1;
+		x = 1;
 		_putchar('+');
 	}
 	else if (n == 0)
 	{
-		value = 0;
+		x = 0;
 		_putchar('0');
 	}
 	else
 	{
-		value = -1;
+		x = -1;
 		_putchar('-');
 	}
-	return (value);
+	return (x);
 }
