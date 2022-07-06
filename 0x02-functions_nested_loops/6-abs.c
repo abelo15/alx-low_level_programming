@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _ab - check main
+ * _abs - check main
  * @r: An integre input
  * Description: This function returns absolute value of a number
  * Return: Absolut value of number r
