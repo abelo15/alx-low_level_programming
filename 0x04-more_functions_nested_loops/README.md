@@ -2,3 +2,4 @@
 1. isdigit: Write a function that checks for a digit (0 through 9).
 3. the numbers speak for themselves
 3. the numbers speak for themselves
+4. I believe in numbers and signs:
